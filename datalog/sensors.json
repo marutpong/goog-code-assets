@@ -237,7 +237,7 @@
     "fields": [
       {
         "label": "Direction (Analog)",
-        "key": "Direction_Analog"
+        "key": "Dir_Analog"
       }
     ]
   },
@@ -266,7 +266,7 @@
     "fields": [
       {
         "label": "Loudness (Analog)",
-        "key": "Loudness_Analog",
+        "key": "Loud_Analog",
         "setupCode": "setinputfilter %INPUT% 2",
         "value": "readfilteredinput %INPUT%",
         "endCode": "resetinputminmax %INPUT%"
@@ -281,12 +281,12 @@
     "fields": [
       {
         "label": "Soil Moisture (Analog)",
-        "key": "Soil_Moisture_Analog",
+        "key": "Soil_M_Analog",
         "category": "humidity"
       },
       {
         "label": "Soil Moisture (%)",
-        "key": "Soil_Moisture_Percent",
+        "key": "Soil_M_Percent",
         "unit": "%",
         "value": "100.0 * ( 1.0 - (5.0*(readsensor %INPUT%)/1023) / (3-1.9) )",
         "category": "humidity"
