@@ -1,0 +1,8 @@
+{
+  "id": 306234717,
+  "tag_name": "version-3.2.4",
+  "name": "GoGo Board 7 firmware version 3.2.4",
+  "body": "  ## This firmware powers the `GoGo Board 7`, unlocking advanced hardware capabilities that inspire children to explore computational thinking through creativity and play.\r\n\r\n  ### What's new in this version\r\n\r\n  #### Stability & Fixes\r\n  - Fixed string operations (character-at, contains, string-length) in Logo programs that could cause incorrect results or crashes when used with the older coding style.\r\n  - Fixed an issue where the web app would not be notified when an image displayed by a Logo program was no longer visible on the GoGo Board screen.\r\n  - Fixed an issue where the web app would receive an invalid image report on a fresh start when no image had been shown.\r\n\r\n  ### Minimum hardware requirement\r\n  GoGo Board version 7 or above\r\n\r\n  ### How to upgrade to this version\r\n  - Auto update. When existing firmware is version 2.5.0 or above, update can take place within the [code.gogoboard.org](https://code.gogoboard.org) environment.\r\n  - Manual update. Visit [install-firmware.gogoboard.org](https://install-firmware.gogoboard.org/) and follow the instructions.\r\n    > [Firmware update manual](https://github.com/arnans/gogodoc/blob/main/firmware-update/firmware-update-guide.md)\r\n\r\n  ### Known issues\r\n  - Microphone not working. (in development)\r\n  - IR transmitter not working. (in development)\r\n",
+  "published_at": "2026-04-07T18:26:39Z",
+  "updated_at": "2026-04-07T18:26:39Z"
+}
